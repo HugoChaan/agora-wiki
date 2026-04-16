@@ -16,4 +16,4 @@ Every implementation task must include tests or explicit test stubs.
 - failure-path handling
 
 ## Guidance source
-The detailed testing expectations are captured in `../concepts/testing/` and `../docs/tests/`, with this skill serving as the routing and guardrail layer.
+The detailed testing expectations are captured in `../knowledge/concepts/testing/` and `../docs/tests/`, with this skill serving as the routing and guardrail layer.

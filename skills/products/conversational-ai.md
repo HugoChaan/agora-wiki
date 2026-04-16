@@ -6,8 +6,8 @@ version: 0.1.0
 
 # Agora Conversational AI Product Skill
 
-## Wiki-first lookup
-Read [[agora-conversational-ai]] and related wiki pages before live fetch.
+## Knowledge-first lookup
+Read [[agora-conversational-ai]] and related knowledge pages before live fetch.
 
 ## Core pages
 - [[agora-conversational-ai]]

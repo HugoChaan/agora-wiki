@@ -6,7 +6,7 @@ version: 0.1.0
 
 # Agora Server Gateway Product Skill
 
-## Wiki-first lookup
+## Knowledge-first lookup
 Read [[agora-server-gateway]] before live fetch.
 
 ## Core pages

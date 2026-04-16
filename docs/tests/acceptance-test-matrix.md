@@ -16,7 +16,7 @@ For each case:
 
 | ID | Prompt | Expected route | Intake required | Expected behavior |
 |---|---|---|---|---|
-| R1 | I need a React web video call with remote user rendering. | RTC | No | Routes directly to RTC/web guidance and relevant wiki pages. |
+| R1 | I need a React web video call with remote user rendering. | RTC | No | Routes directly to RTC/web guidance and relevant knowledge pages. |
 | R2 | I want an AI voice agent in the same channel as users. | ConvoAI (+ RTC/RTM awareness) | Maybe | Recognizes multi-product relation, mentions RTC transport and transcript/event path. |
 | R3 | I need to record calls and stream transcripts to my backend. | Intake -> Cloud Recording + RTM/ConvoAI | Yes | Identifies multi-product scenario before answering implementation details. |
 | R4 | Generate a Go token server for production. | Server/token | No | Emphasizes App Certificate safety, production token requirement, and server-only secret handling. |

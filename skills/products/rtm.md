@@ -6,8 +6,8 @@ version: 0.1.0
 
 # Agora RTM Product Skill
 
-## Wiki-first lookup
-Read [[agora-rtm]] and related wiki pages before live fetch.
+## Knowledge-first lookup
+Read [[agora-rtm]] and related knowledge pages before live fetch.
 
 ## Core pages
 - [[agora-rtm]]

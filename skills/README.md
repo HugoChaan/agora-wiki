@@ -1,6 +1,6 @@
 # Agora Skills Directory
 
-This repository keeps the wiki and the standard skill bundle together.
+`skills/` is the **only runtime entry layer** for agents. The stable knowledge lives under `knowledge/`, and `skills/` points to it through small policy and map files rather than duplicating long reference prose.
 
 ## Skill entrypoints
 - `agora/SKILL.md` — root router for all Agora requests
@@ -17,11 +17,19 @@ This repository keeps the wiki and the standard skill bundle together.
 1. Load `agora/SKILL.md`
 2. Route to one or more product skills or `agora-intake/SKILL.md`
 3. If the task is implementation work, also load `agora-testing-guidance/SKILL.md`
-4. Read the linked wiki pages before any live-doc fetch
+4. Read the linked canonical pages under `knowledge/` before any live-doc fetch
 5. Escalate to live docs only for volatile details
 
-## Repository role split
-- `skills/` = orchestration and routing layer for agents
-- `entities/`, `concepts/`, `patterns/`, `gotchas/`, `queries/` = stable wiki knowledge layer
-- `raw/` = imported source material
-- `tests/` and `docs/tests/` = validation layer
+## Role split
+- `skills/` = orchestration, routing, runtime policy, testing guardrails
+- `knowledge/` = stable entities, concepts, patterns, gotchas, queries
+- `raw/` = imported source material and provenance
+- `tests/` + `docs/tests/` = validation layer
+
+## Reference discipline
+The `references/` folders inside skill directories should contain only:
+- knowledge maps
+- live-doc policy
+- architecture / maintenance notes
+
+They should not turn back into a second large wiki.

@@ -11,7 +11,7 @@ Use this as the root skill for Agora product questions and implementation tasks.
 ## What this skill does
 - routes clear requests to a product-specific skill;
 - routes vague or multi-product requests to intake;
-- enforces wiki-first lookup;
+- enforces knowledge-first lookup;
 - enforces live-doc escalation for volatile details;
 - adds testing guidance for implementation work.
 
@@ -26,11 +26,11 @@ Use this as the root skill for Agora product questions and implementation tasks.
 - Implementation request -> also load `../agora-testing-guidance/SKILL.md`
 
 ## Knowledge strategy
-- Read stable knowledge from the wiki repository pages first.
-- Read `references/wiki-map.md` to find the relevant wiki pages.
+- Read stable knowledge from the knowledge pages first.
+- Read `references/knowledge-map.md` to find the relevant knowledge pages.
 - Use live docs for volatile details like exact schemas, vendor configs, model names, release notes, and error-code tables.
 - Do not duplicate large reference bundles in the skill layer.
 
 ## Shared policy references
 - `references/shared-live-doc-policy.md`
-- `references/shared-repo-strategy.md`
+- `references/shared-knowledge-architecture.md`

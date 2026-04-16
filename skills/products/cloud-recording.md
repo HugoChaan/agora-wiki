@@ -6,8 +6,8 @@ version: 0.1.0
 
 # Agora Cloud Recording Product Skill
 
-## Wiki-first lookup
-Read [[agora-cloud-recording]] and related wiki pages before live fetch.
+## Knowledge-first lookup
+Read [[agora-cloud-recording]] and related knowledge pages before live fetch.
 
 ## Core pages
 - [[agora-cloud-recording]]

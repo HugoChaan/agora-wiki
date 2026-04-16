@@ -6,7 +6,7 @@ version: 0.1.0
 
 # Agora Server Product Skill
 
-## Wiki-first lookup
+## Knowledge-first lookup
 Read [[agora-authentication-and-token-model]] first, then live docs for exact token APIs.
 
 ## Core pages

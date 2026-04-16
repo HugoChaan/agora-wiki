@@ -1,39 +1,39 @@
-# Agora Wiki
+# Agora Skills + Knowledge Base
 
-Structured markdown wiki for Agora integration knowledge.
+Agent-facing Agora repository with **`skills/` as the runtime entry layer** and a separate **`knowledge/` layer** for stable reference content.
 
 ## Purpose
-This repository captures stable, high-signal integration knowledge from the Agora skills layer and organizes it into an interlinked wiki.
+This repository is designed to be consumed by agents through `skills/`, not by treating the whole repo as a flat wiki.
 
-It is not meant to replace official docs for fast-moving API details. Instead:
-- the wiki stores stable concepts, relationships, patterns, and gotchas;
-- `raw/` stores source snapshots;
-- exact schemas and volatile parameters should still be fetched from official live docs.
+The split is:
+- `skills/` — routing, intake, testing guardrails, and live-doc escalation policy
+- `knowledge/` — stable product knowledge, concepts, patterns, gotchas, and durable query pages
+- `raw/` — source snapshots and provenance material
+- live official docs — volatile schemas, release-note-sensitive details, and exact API field references
 
 ## Start Here
-- Read [[SCHEMA.md]]
-- Read [[index.md]]
-- Check [[log.md]] for recent updates
-
-## Initial scope
-- Agora product landscape
-- RTC
-- RTM / Signaling
-- Conversational AI
-- Authentication and token model
-- Live-doc fetch policy
-- Initial integration patterns and gotchas
+1. Read `skills/README.md` for runtime entrypoints
+2. Read `SCHEMA.md` for repository rules
+3. Read `knowledge/index.md` for canonical knowledge navigation
+4. Check `log.md` for recent changes
 
 ## Repository layout
-
-- `entities/`, `concepts/`, `patterns/`, `gotchas/` — stable Agora knowledge
-- `skills/` — standard skill bundle with separate skill directories and `SKILL.md` entrypoints
+- `skills/` — agent runtime entry layer
+- `knowledge/` — stable reference layer loaded by skills
 - `raw/` — imported source snapshots and future official-doc captures
+- `tests/` — structural and anti-drift checks
+- `docs/tests/` — acceptance planning and execution artifacts
 
-## Current direction
+## Runtime model
+1. Load `skills/agora/SKILL.md`
+2. Route to the relevant product skill or `skills/agora-intake/SKILL.md`
+3. For implementation tasks, also load `skills/agora-testing-guidance/SKILL.md`
+4. Use the skill's `references/` files to locate canonical pages under `knowledge/`
+5. Escalate to live docs only for volatile details
 
-This repository now serves both as the knowledge base and as the design home for a standard wiki-first Agora skill bundle. The skills should read from this wiki, preserve routing and live-fetch guardrails, and avoid duplicating large reference bundles.
+## Maintenance model
+- Update `skills/` when routing, runtime policy, or testing guardrails change
+- Update `knowledge/` when stable product knowledge improves
+- Update `raw/` when provenance snapshots need refresh
 
-## Validation assets
-- `tests/` contains structural checks for the skill prototype.
-- `docs/tests/` contains prompt-based acceptance test planning and execution templates.
+This keeps agent behavior explicit while letting the knowledge base grow without bloating the skill layer.

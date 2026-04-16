@@ -13,7 +13,7 @@ sources: [raw/skills/doc-fetching.md]
 Not all Agora knowledge should be frozen into a wiki.
 
 ## Level 1 — Stable bundled knowledge
-Use stable wiki pages for:
+Use stable knowledge pages for:
 - product boundaries,
 - integration patterns,
 - identity rules,

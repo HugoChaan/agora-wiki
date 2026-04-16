@@ -14,7 +14,7 @@ Use this root skill for Agora product questions and implementation tasks.
 - Implementation request -> also load `testing-guidance/SKILL.md`.
 
 ## Knowledge strategy
-- Read stable knowledge from the wiki repository pages first.
+- Read stable knowledge from the knowledge pages first.
 - Use live-doc lookup for volatile details like schemas, vendor configs, model names, release notes, and error-code tables.
 - Do not duplicate large reference bundles in the skill layer.
 

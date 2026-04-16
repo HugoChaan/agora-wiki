@@ -1,6 +1,6 @@
 # Shared Live-Doc Policy
 
-## Use wiki pages first for
+## Use knowledge pages first for
 - product concepts
 - architecture patterns
 - stable integration gotchas
@@ -14,4 +14,4 @@
 - rapidly changing parameter fields
 
 ## Rule
-Do not answer volatile API details from static wiki pages alone.
+Do not answer volatile API details from static knowledge pages alone.

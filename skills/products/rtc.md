@@ -6,8 +6,8 @@ version: 0.1.0
 
 # Agora RTC Product Skill
 
-## Wiki-first lookup
-Read [[agora-rtc]] and related wiki pages before live fetch.
+## Knowledge-first lookup
+Read [[agora-rtc]] and related knowledge pages before live fetch.
 
 ## Core pages
 - [[agora-rtc]]

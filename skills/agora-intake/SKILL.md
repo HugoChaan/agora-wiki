@@ -25,7 +25,7 @@ Use this skill when the request does not clearly identify a single Agora product
 - next Agora sub-skills to load
 
 ## Wiki-first references
-- `../agora/references/wiki-map.md`
-- `../../entities/products/agora-product-landscape.md`
-- `../../concepts/auth/agora-authentication-and-token-model.md`
-- `../../patterns/rtc-plus-rtm-integration.md`
+- `../agora/references/knowledge-map.md`
+- `../../knowledge/entities/products/agora-product-landscape.md`
+- `../../knowledge/concepts/auth/agora-authentication-and-token-model.md`
+- `../../knowledge/patterns/rtc-plus-rtm-integration.md`

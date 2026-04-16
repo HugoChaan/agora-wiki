@@ -16,10 +16,10 @@ Every implementation task must include tests or explicit test stubs.
 - failure-path handling
 
 ## Wiki-first references
-- `../../concepts/testing/agora-testing-completeness-gate.md`
-- `../../concepts/testing/agora-token-renewal-testing.md`
-- `../../concepts/testing/agora-rtc-web-testing.md`
-- `../../concepts/testing/agora-convoai-rest-testing.md`
+- `../../knowledge/concepts/testing/agora-testing-completeness-gate.md`
+- `../../knowledge/concepts/testing/agora-token-renewal-testing.md`
+- `../../knowledge/concepts/testing/agora-rtc-web-testing.md`
+- `../../knowledge/concepts/testing/agora-convoai-rest-testing.md`
 
 ## Guidance source
-The detailed testing expectations are captured in `../../concepts/testing/` and `../../docs/tests/`, with this skill serving as the routing and guardrail layer.
+The detailed testing expectations are captured in `../../knowledge/concepts/testing/` and `../../docs/tests/`, with this skill serving as the routing and guardrail layer.
