@@ -105,7 +105,7 @@ For those, fetch live from Agora docs via `llms.txt`, direct `docs-md` links, or
 - `comparisons/` — tradeoff and product comparison pages
 - `gotchas/` — recurring failure modes and sharp edges, including identity/lifecycle traps across stacks
 - `queries/` — durable synthesized answers worth keeping
-- `skills/` — wiki-backed skill definitions and routing docs
+- `skills/` — standard skill bundle with separate skill directories and `SKILL.md` entrypoints for orchestration and routing
 
 ## Validation Layer
 - `tests/` — executable structural/contract tests for repository layout and skill policy.

@@ -17,6 +17,11 @@
 - Added shared skill policy docs for live-doc boundaries and same-repo strategy.
 - Added testing concept pages for completeness gate, RTC Web, ConvoAI REST, and token renewal.
 
+## [2026-04-16] refactor | standard skill bundle layout
+- Reorganized `skills/` into standard skill directories with `SKILL.md` entrypoints.
+- Added `skills/README.md` to document loading order and repository role split.
+- Updated structural tests to validate the standard skill layout.
+
 ## [2026-04-16] migrate | platform coverage expansion
 - Added RTC platform pages for Web, iOS, and Android.
 - Added RTM platform pages for Web, iOS, and Android.

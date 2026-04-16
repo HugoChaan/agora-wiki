@@ -10,5 +10,5 @@ The wiki-backed Agora skills should live in the same `agora-wiki` repository.
 
 ## Layout
 - `entities/`, `concepts/`, `patterns/`, `gotchas/`, `queries/`, `raw/`
-- `skills/` — standard skill bundle with separate skill directories and `SKILL.md` entrypoints
+- `skills/` for orchestration and routing as a standard skill bundle
 - `tests/` and `docs/tests/` for validation assets

@@ -27,12 +27,12 @@ It is not meant to replace official docs for fast-moving API details. Instead:
 ## Repository layout
 
 - `entities/`, `concepts/`, `patterns/`, `gotchas/` — stable Agora knowledge
-- `skills/` — wiki-backed skill definitions and routing rules
+- `skills/` — standard skill bundle with separate skill directories and `SKILL.md` entrypoints
 - `raw/` — imported source snapshots and future official-doc captures
 
 ## Current direction
 
-This repository now serves both as the knowledge base and as the design home for a new wiki-first Agora skill system. The skills should read from this wiki, preserve routing and live-fetch guardrails, and avoid duplicating large reference bundles.
+This repository now serves both as the knowledge base and as the design home for a standard wiki-first Agora skill bundle. The skills should read from this wiki, preserve routing and live-fetch guardrails, and avoid duplicating large reference bundles.
 
 ## Validation assets
 - `tests/` contains structural checks for the skill prototype.
