@@ -45,6 +45,7 @@ sources: [raw/skills/...]
 - platform-go
 - platform-nodejs
 - platform-server
+- platform-linux
 
 ### Topics
 - auth
@@ -98,11 +99,17 @@ For those, fetch live from Agora docs via `llms.txt`, direct `docs-md` links, or
 
 ## Content Groups
 - `entities/products/` — product pages and ecosystem entities
+- `entities/platforms/` — stable platform-specific summaries for RTC/RTM SDK usage on Web, iOS, Android
 - `concepts/` — durable concepts such as auth, identity, channels, events, media
-- `patterns/` — recommended implementation patterns and product combinations
+- `patterns/` — recommended implementation patterns and product combinations, including cross-platform lifecycle patterns
 - `comparisons/` — tradeoff and product comparison pages
-- `gotchas/` — recurring failure modes and sharp edges
+- `gotchas/` — recurring failure modes and sharp edges, including identity/lifecycle traps across stacks
 - `queries/` — durable synthesized answers worth keeping
+- `skills/` — wiki-backed skill definitions and routing docs
+
+## Validation Layer
+- `tests/` — executable structural/contract tests for repository layout and skill policy.
+- `docs/tests/` — manual or harness-driven acceptance test definitions, evidence templates, and completion gates.
 
 ## Update Policy
 When new official docs conflict with existing wiki content:
